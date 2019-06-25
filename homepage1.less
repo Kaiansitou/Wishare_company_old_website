@@ -1,0 +1,45 @@
+.homepage1-container {
+  & .section-wrapper {
+    width: 800px;
+  }
+
+  & .homepage1-background {
+    background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)), url("building.jpg");
+    .background-image-function;
+  }
+
+  & .homepage1-title {
+    padding: 50px 0;
+  }
+
+  & .homepage1-middle-container {
+    display: flex;
+    align-items: center;
+    padding: 40px 0 100px;
+    justify-content: space-between;
+
+    & .left-container {
+      text-align: center;
+
+      & p {
+        border: 1px solid @grey-color;
+        padding: 40px;
+        color: grey;
+        border-radius: 25px;
+      }
+    }
+
+    & .right-container {
+      width: 50%;
+      color: grey;
+      font-size: 15px;
+
+      & button {
+        padding: 5px 15px;
+        background-color: rgba(255,255,255,0.5);
+        margin: 20px 0;
+        float: right;
+      }
+    }
+  }
+}

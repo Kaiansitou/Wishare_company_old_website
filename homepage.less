@@ -1,0 +1,50 @@
+.homepage-container {
+  & .homepage-background {
+    background-image: url("building.jpg");
+    .background-image-function;
+  }
+
+  & .red-background {
+    background-image: url("red.jpg");
+    .background-image-function;
+    opacity: 0.98;
+  }
+
+  & .section-wrapper {
+    width: 800px;
+  }
+
+  & .homepage-title {
+    color: @white-color;
+    text-align: center;
+    line-height: 2;
+
+    & img{
+      width:150px;
+      height:150px;
+      padding-top:30px;
+    }
+
+    & p{
+      font-size: 19px;
+    }
+
+    & .circle {
+      display:flex;
+      text-align: center;
+      justify-content: space-around;
+      padding:100px;
+      & .circle-content {
+        display: flex;
+        flex-direction: column;
+        color: @black-color;
+        background-color: @white-color;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        justify-content: center;
+
+      }
+    }
+  }
+}

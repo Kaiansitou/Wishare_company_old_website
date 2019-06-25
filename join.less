@@ -1,0 +1,52 @@
+.hiring-image {
+  background-image: url("hiring.png");
+  .background-image-function;
+  width: 50%;
+  height: 500px;
+  margin: auto;
+}
+
+.section-wrapper {
+  width: 800px;
+}
+
+.join-middle-container {
+  display: flex;
+  padding: 60px 50px;
+
+  & .join-middle-image {
+    & img {
+      width: 300px;
+      height: 200px;
+    }
+  }
+
+  & .join-description{
+    width:80%;
+    padding: 0 100px;
+    & h1{
+      color:red;
+      padding-bottom: 20px;
+    }
+
+    & ul{
+      & li{
+        font-size: 12px;
+      }
+    }
+
+    & p{
+      font-size: 12px;
+      padding:10px 0;
+    }
+
+    & button{
+      margin: 40px 0;
+      padding:10px 50px;
+      border-radius: 20px;
+      background-color: #fd5f00;
+      color:@white-color;
+      font-size: 1em;
+    }
+  }
+}

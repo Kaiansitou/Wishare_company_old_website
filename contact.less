@@ -1,0 +1,58 @@
+.contact-container {
+  & .contact-background-image {
+    background-image: url("https://emerginggrowth.com/wp-content/uploads/2016/04/Home-Background-Galaxy.jpg");
+    .background-image-function;
+  }
+
+  & .section-wrapper{
+    width:800px;
+  }
+  & h1{
+    font-size: 3em;
+    color:@white-color;
+    text-align: center;
+    padding: 50px 0;
+  }
+}
+
+.contact-form{
+  padding:100px 0;
+  line-height: 2;
+  & .section-wrapper{
+    width:800px;
+  }
+  & .contact-form-container{
+    display:flex;
+    & .left-form{
+      margin: auto;
+      & h3{
+        font-size: 1em;
+      }
+      & input{
+        width:90%;
+        padding: 10px 0;
+        border-radius: 2px;
+      }
+
+      & textarea{
+        width:90%;
+      }
+
+      & button{
+        padding:10px 50px;
+        border-radius: 30px;
+        background-color: #c40b13;
+        color:@white-color;
+        margin:20px 0;
+      }
+    }
+    & .right-form{
+      text-align: center;
+      line-height: 2;
+
+      & h2{
+        padding: 10px 0;
+      }
+    }
+  }
+}
